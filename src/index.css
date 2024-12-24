@@ -208,7 +208,7 @@ body{
 /* ******************************************************************* */
 /* ******************************************************************* */
 
-/* ****** REGISTER PAGE ****** */
+/* ****** REGISTER - LOGIN PAGE ****** */
 /* CONTAINER */
 .main-section{
   display: flex;
@@ -217,9 +217,15 @@ body{
   align-items: center;
   height: 100vh;
   gap: 20px;
+  /* border: solid red; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(./assets/Header.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
 }
 
-/* REGISTER FORM */
+/* REGISTER  - LOGIN FORM */
 .register-login-form{
   display: flex;
   flex-direction: column;
@@ -228,14 +234,13 @@ body{
   gap: 10px;
   padding: 1em;
   /* border: solid red; */
-  width: 80%;
+  width: 60%;
   height: fit-content;
   background-color: #383737;
-  color: white;
   border-radius: 10px;
 }
 
-/* REGISTER FORM - INPUTS */
+/* REGISTER - LOGIN FORM - INPUTS */
 .register-login-form-inputs{
   border-radius: 5px;
   border: none;
@@ -250,7 +255,7 @@ body{
   padding: 1em;
 }
 
-/* REGISTER FORM - BUTTON */
+/* REGISTER - LOGIN FORM - BUTTON */
 .register-login-button{
   height: 2.5em;
   width: 6em;

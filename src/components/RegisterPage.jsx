@@ -122,8 +122,9 @@ const RegisterPage = () => {
                 {registerOk && <p>Se ha registrado exitosamente!</p>}
 
                 {/* SUBMIT BUTTON */}
-                <button type="submit" className="register-login-button">Register</button>
+                <button type="submit" className="register-login-button">Register</button>                   
             </form>
+            
         </main>
     )
 }
